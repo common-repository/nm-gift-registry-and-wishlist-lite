@@ -1,0 +1,402 @@
+== Changelog ==
+
+= 4.13 =
+* Fix - Improved compatibility with caching applications
+
+= 4.12 =
+* Fix - Improved compatibility with caching applications
+* Tweak - Improved performance in saving wishlist and wishlist items.
+* Tweak - Adjusted plugin redirection feature to work after user registration just like user login.
+* Dev - Deprecated use of 'date_modified' column in wishlist items table.
+
+= 4.11.2 =
+* Fix - Improved compatibility with caching applications
+
+= 4.11.1 =
+* Fix - Modal and Toast components are made responsive on mobile devices.
+- Tweak - Updated twitter icon to X.
+
+= 4.11 =
+* Fix - Page jump effect when modal or toast is removed from page.
+* Fix - Incorrect display of select2 dropdown on profile shipping form.
+* Fix - Bug preventing add to cart button for wishlist item from showing on product page.
+* Dev - Deprecated NMGR_Items_View class.
+* Dev - Prevent woocommerce style overriding of account/wishlists.php template.
+* Dev - Prevent woocommerce style overriding of account/items/item-actions-add_to_cart.php template.
+* Dev - Prevent woocommerce style overriding of account/items/item-cost.php template.
+* Dev - Prevent woocommerce style overriding of account/items/item-quantity.php template.
+* Tweak - Gift Registry and Wishlist pages can be sub pages of parent pages.
+
+= 4.10 =
+* Tweak - wishlist type title can only be 'wishlist' or 'gift-registry' by default. Removed other titles.
+
+= 4.9.0 =
+* Replaced bootstrap with JQuery UI.
+
+= 4.8.0 =
+* Removed overrides tab in plugin settings
+
+= 4.7.0 =
+* Fix - Email field on profile settings is made required by default on plugin installation.
+* Fix - Messages module is enabled by default on plugin installation.
+* Fix - Wishlist thumbnail on wishlist page image shows on center by default on plugin installation.
+* Dev - Deprecated function nmgr_get_default_account_section_content().
+* Dev - Deprecated shortcode [nmgr_profile].
+* Dev - Deprecated shortcode [nmgr_items].
+* Dev - Deprecated shortcode [nmgr_shipping].
+* Dev - Deprecated shortcode [nmgr_images].
+* Dev - Deprecated shortcode [nmgr_orders].
+* Dev - Deprecated shortcode [nmgr_messages].
+* Dev - Deprecated shortcode [nmgr_settings].
+* Dev - Deprecated shortcode [nmgr_share].
+* Dev - Deprecated shortcode [nmgr_account].
+* Dev - Deprecated shortcode [nmgr_account_wishlist].
+* Removed Template - add-to-wishlist/profile.php
+* Removed Template - add-to-wishlist/shipping.php
+* Removed Template - add-to-wishlist/select-wishlist.php
+* Removed Template - form-search-wishlist.php
+* Removed Template - cart.php
+* Deprecated Template - single-nm_gift_registry.php
+* Deprecated Template - archive-nm_gift_registry.php
+* Deprecated Template - content-archive-nm_gift_registry.php
+* Deprecated Template - content-single-nm_gift_registry.php
+* Fix - Enqueued frontend scripts on all frontend to prevent missing scripts on some pages.
+
+= 4.6.0 =
+* Tweak - Wishlist item maximum desired quantity set to unlimited.
+* Fix - Bug preventing some columns from being hidden in the wishlist items table settings
+* Tweak - Wishlist messages always show even when order is not paid.
+* Tweak - Added pagination to wishlist messages templates.
+* Feature - Wordpress minimum version set to 4.9.0
+* Removed Template - account/messages.php
+* Removed Template - account/images.php
+* Removed Template - account/shipping.php
+* Removed Template - account/orders.php
+* Removed Template - account/settings.php
+* Removed Template - account/profile.php
+* Removed Template - account/items.php
+* Removed Template - account/sharing.php
+* Removed Template - account/wishlists.php
+* Removed Template - account/call-to-action-no-wishlist.php
+* Removed Template - account/items/item-thumbnail.php
+* Removed Template - account/items/item-title.php
+* Removed Template - account/items/item-cost.php
+* Removed Template - account/items/item-quantity.php
+* Removed Template - account/items/item-purchased-quantity.php
+* Removed Template - account/items/item-favourite.php
+* Removed Template - account/items/item-total_cost.php
+* Removed Template - account/items/item-actions-add_to_cart.php
+* Removed Template - account/items/item-actions-edit-delete.php
+* Removed Template - account/items/items-actions.php
+* Removed Template - account/items/items-total_cost.php
+* Changed Template - add-to-wishlist/select-wishlist.php
+
+= 4.5.1 =
+* Tweak - Enqueued frontend scripts and styles on front page.
+* Tweak - Refresh wishlist item row and wishlist table totals when item desired quantity is updated.
+* Fix - Bug preventing wishlist item desired quantity from being updated.
+
+= 4.5.0 =
+* Feature - Added compatibility with woocommerce custom order tables.
+* Tweak - Default order status for manually created orders is processing instead of completed.
+
+= 4.4.0 =
+* Dev - Changed database structure for wishlist tables.
+* Dev - Replaced '_date_fulfilled' wishlist meta key with '_nmgr_fulfilled'
+* Dev - Moved item meta properties from nmgr_itemmeta table to nmgr_wishlist_items table.
+* Dev - Removed datatables.js jquery plugin.
+* Dev - removed 'nmgr_guest_wishlist_expiry_days' filter.
+* Dev - wishlist item quantity reference data no longer used.
+* Tweak - Guest wishlists no longer expire.
+* Tweak - Improved add to wishlist process
+* Dev - Removed action 'nmgr_add_to_wishlist_option_row_start'.
+* Dev - Removed action 'nmgr_add_to_wishlist_option_row_end'.
+* Feature - Added ability to dequeue plugin bootstrap scripts to prevent conflicts.
+
+= 4.3.7 =
+* Fix -  Undefined index: add_to_cart_button in admin when showing wishlist items.
+
+= 4.3.6 =
+* Fix - Fatal error caused by caching items view data before item is read.
+
+= 4.3.5 =
+* Fix - When updating wishlist item purchased quantity manually, the order item quantity should be the difference between the original wishlist item quantity and the updated wishlist item quantity rather than being the total wishlist item quantity.
+* Fix - Show post edit link in admin for variable products in wishlists.
+
+= 4.3.4 =
+* Fix - Properly set up wishlist item object in wishlist class when getting wishlist purchased amount.
+
+= 4.3.3 =
+* Fix - Properly select gift registry or wishlist profile template when creating a new wishlist with post-new.php in admin.
+* Fix - Fatal error when getting wishlist item part template without a set wishlist item.
+
+= 4.3.2 =
+* Fix - Show wishlist order item meta data in packing slips and pdf invoices.
+
+= 4.3.1 =
+* Fix - Inability to properly read wishlist object after CRUD operations.
+
+= 4.3.0 =
+* Improvement - Wishlist page loading speed
+* Tweak - Removed legacy gift registry woocommerce my-account page.
+
+= 4.2.1 =
+* Fix - Bug preventing wishlist items from being added to cart
+
+= 4.2.0 =
+* Improvement - Efficiency of background tasks.
+
+= 4.1.0 =
+* Dev - Added compatibility with php 8.2
+
+= 4.0.0 =
+* Feature - Create order when updating item purchased quantity.
+* Tweak - Allow plugin to be used as a wishlist plugin alone or as a gift registry plugin alone, or both.
+* Tweak - Removed some plugin settings.
+* Tweak - Changed placement of some plugin settings.
+* Tweak - Removed page for managing wishlists.
+* Tweak - Removed page for viewing wishlist archives.
+* Tweak - Removed 'overview' account section.
+* Dev - Replaced plugin option 'wishlist_single_page_id' with 'page_id'.
+
+= 3.0.4 =
+* Fix - Bug when trying to get plugin order meta.
+
+= 3.0.3 =
+* Fix - Parse error on activation.
+
+= 3.0.2 =
+* Fix - Parse error on activation.
+
+= 3.0.1 =
+* Fix - Fatal error when trying to display wishlist shipping fields
+
+= 3.0.0 =
+* Fix - Bug preventing event date from being saved with empty value.
+* Fix - Out of stock variable products can be added to wishlist.
+* Improvement - Expired guest wishlists are deleted in the background.
+* Improvement - Add to wishlist user experience.
+* Improvement - Wishlist item table user interface actions.
+* Improvement - Error handling on form submissions.
+* Improvement - Checkbox and radio button fields show as animated toggle switches on frontend.
+* Improvement - Plugin error and success notifications display as toasts instead of woocommerce notices.
+* Improvement - Optimized javascript code.
+* Improvement - Optimized php code.
+* Feature - Automatically detect and mark expired wishlists.
+* Tweak - Description and event date fields moved to profile metabox in wishlist admin screen.
+* Tweak - Bootstrap 5 components used for plugin modules.
+* Tweak - Wishlist item actions display in bootstrap dropdown.
+* Tweak - "Ship to my account address" field replaced by ability to copy account shipping address into wishlist shipping form.
+* Tweak - Wishlist profile and shipping fields are required in wishlist admin screen just like in frontend if they are made required in plugin settings.
+
+= 2.5.3 =
+* Tweak - Wordpress autosave feature enabled by default in wishlist admin screen.
+
+= 2.5.2 =
+* Fix - Bug preventing users from managing their wishlists when using custom page for management.
+
+= 2.5.1 =
+* Tweak - Set single wishlist title as page title when using custom page for displaying single wishlists.
+* Fix - Bug preventing event date profile field from being set to required according to plugin settings.
+* Fix - Bug with searching wishlists
+* Tweak - Attribute "show_results_if_no_search_query" is "true" by default when using shortcode [nmgr_search].
+* Tweak - Attribute "show_results_if_no_search_query" works not only on page load but when the search field is empty.
+
+= 2.5 =
+* Feature - Ability to display single wishlists and wishlist archive in custom pages using [nmgr_wishlist] and [nmgr_archive] shortcodes respectively.
+* Dev - Deprecated plugin options "single_wishlist_template" and "archive_template" for "wishlist_single_page_id" and "wishlist_archive_page_id" respectively.
+
+= 2.4.8 =
+* Fix - Prevent add to wishlist events from firing multiple times when double clicking button.
+
+= 2.4.7 =
+* Fix - Bug causing new wishlist to be creating when adding product to wishlist.
+* Feature - Code for determining if wishlist is expired.
+
+= 2.4.6 =
+* Fix - Bug preventing wishlist purchased quantity from being updated on rare occasions when order payment is complete.
+* Tweak - function nmgr_get_current_wishlist_id() defaults to nmgr_get_user_default_wishlist_id() only on wishlist account page and single wishlist page.
+* Feature - Log all purchase events which result in updating the wishlist item purchased quantity.
+
+= 2.4.5 =
+* Feature - Automatically enabled wishlist archives by default.
+* Feature - Added compatibility with NM Gift Registry and Wishlist - Crowdfunding.
+
+= 2.4.4 =
+* Tweak - datepicker displays date in default wordpress date format by default.
+* Tweak - is_nmgr_enabled() returns true when in admin area.
+
+= 2.4.3 =
+* Tweak - External, Out of stock and insufficient stock products can be added to the wishlist by default.
+* Tweak - datepicker displays date in Y-m-d format by default.
+
+= 2.4.2 =
+* Tweak - Plugin date uses default wordpress date in general settings.
+
+= 2.4.1 =
+* Fix - Bug preventing nmgr_created_wishlist hook from firing when wishlists are created in admin area.
+
+= 2.4 =
+* Dev - Modified wishlist items table view.
+* Dev - 'nmgr_created_wishlist' hook fires when wishlists are created in admin.
+* Dev - Show templates currently being overridden in plugin settings page.
+* Feature - Show wishlist count in products admin list table.
+
+= 2.3.15 =
+* Fix- Prevent error caused when wc()->countries returns null.
+
+= 2.3.14 =
+* Fix - Prevent login error caused by woocommerce address fields not being retrieved by plugin.
+* Fix - Prevent logout error when no page for managing wishlists is set for customers.
+
+= 2.3.13 =
+* Dev - 'template_group' argument added to account sections template generation code to help retrieve common template data.
+* Dev - Always show existing plugin settings errors on page load.
+* Tweak - Deprecated search template shortcode attribute 'show_results_if_empty' for 'show_results_if_no_search_query'.
+* Dev - Changed delete guest wishlists cron event recurrence from weekly to daily.
+
+= 2.3.12 =
+* Fix - Call to action content not showing on shipping account tab for new wishlists.
+* Fix - Unable to properly retrieve wishlist id after save.
+* Fix - Hide account link for guests in shipping template when wishlist is shipping to account address.
+
+= 2.3.11 =
+* Dev - Improved output of function 'nmgr_get_checkbox_switch'.
+* Dev - Enabled translations for default datatables strings.
+* Fix - Fix - Fatal error cause by locate_block_template() when trying to retrieve page to use as template for viewing single wishlists.
+* Improvement - Improved detection of incomplete wishlist shipping address fields.
+
+= 2.3.10 =
+* Dev - Added ability to filter wishlist profile fields that are searchable.
+* Dev - cache database queries for faster response.
+* Fix - Bug preventing searching in wishlist profile fields when using shortcode [nmgr_search].
+* Fix - Undefined function 'wc_print_notices' fatal error in admin area when using [nmgr_wishlist] shortcode.
+
+= 2.3.9 =
+* Tweak - Enhanced wishlist search in admin area to search by first name, last name and other profile fields.
+* Tweak - Removed accents from woocommerce my account page wishist menu item slug.
+* Dev - Items can be added to wishlists uniquely based on custom data.
+* Dev - Changed arguments for 'nmgr_added_to_wishlist' action.
+
+= 2.3.8 =
+* Dev- Plugin shortcodes added on init hook instead of wp hook.
+* Fix - Fatal error generated when wishlist archives template is called by conflicting wp_query code in other plugins.
+* Dev - Modified parameters to action hooks for displaying plugin archive content.
+* Feature - Added whatsapp sharing option to wishlists.
+
+= 2.3.7 =
+* Fix - Bug in preventing custom profile form fields form appearing in admin area.
+
+= 2.3.6 =
+* Fix - PHP Warning from enhance_wishlist_search function.
+
+= 2.3.5 =
+* Fix - Fatal error caused by is_main_query being called on null.
+
+= 2.3.4 =
+* Fix - PHP notice when creating wishlist programmatically on the frontend if no title is set.
+* Dev - Added ability to target dialog template by id
+* Fix - Update wishlist post author when wishlist user id is set programmatically.
+* Fix - Bug in preventing plugin translations being loaded from wordpress global languages directory.
+
+= 2.3.3 =
+* Fix - Removed search form from search page to prevent duplicate forms.
+* Fix - Remove slashes from search query when shown in search form.
+
+= 2.3.2 =
+* Fix - Item total cost display accounts for tax.
+* Improvement - Show the search form when the search results appear.
+* Dev - More classes prefixed with 'nmgr' for targetting plugin's html elements.
+
+= 2.3.1 =
+* Tweak -  Wishlist item desired quantity allows for backorders.
+* Improvement - Cart fragments refresh at the right time when wishlist items are added to the cart.
+* Fix - Progressbar shows correct percentage when empty.
+
+= 2.3.0 =
+* Improvement - Jquery datatables.js now used for tables in plugin, replaces stupidtables.js.
+* Fix - Properly fixed bug in reading wishlist item from database if it doesn't exist.
+
+= 2.2.3 =
+* Fix - Bug in reading wishlist item from database if it doesn't exist.
+
+= 2.2.2 =
+* Fix - Bug in displaying wishlist menu item in woocommerce account menu items.
+
+= 2.2.1 =
+* Dev - Some actions and filters modified or added.
+
+= 2.2.0 =
+* Tweak - Changed 'search_results_template' plugin settings key to 'archive_template'.
+* Tweak - Removed some options from wishlist search widget.
+* Tweak - Replaced 'search-nm_gift_registry.php' template with 'archive-nm_gift_registry.php'.
+* Tweak - Item fulfilled tooltip now displays over item fulfilled text rather than on item row of item table.
+* Dev - Replaced filter 'nmgr_fields' with 'nmgr_requested_fields' to filter requested fields and changed position of 'nmgr_fields' to filter raw unmodified fields. Also changed sole filter argument from wishlist object to array.
+* Dev - Improved customizability of search module.
+
+= 2.1.1 =
+* Improvement - Added settings to toggle display of add to cart and edit delete columns on items table.
+* Fix - Improved ability to detect user's wishlist id in global context.
+* Fix - Improved plugin management of the 'allow_multiple_wishlists' settings.
+
+= 2.1.0 =
+* Feature - Ability to redirect to cart after adding wishlist items to cart.
+* Feature - Filter to redirect to checkout after adding wishlist items to cart.
+* Improvement - Add to wishlist dialog UX.
+* Improvement - code optimization.
+
+= 2.0.4 =
+* Fix - Conflict between plugin boostrap js and theme bootstrap js.
+
+= 2.0.3 =
+* Improvement - Theme compatibility with wishlist account tabs.
+
+= 2.0.2 =
+* Fix - Bug in displaying custom dates.
+* Tweak - Minor code improvements.
+
+= 2.0.1 =
+* Feature - Allow guests to create and manage wishlists.
+* Feature - Allow users to create wishlists when adding to wishlist.
+* Feature - Create default wishlist automatically for users without any wishlist.
+* Feature - Added wishlist cart widget.
+* Feature - Added wishlist search widget.
+* Feature - Ability to set custom add to wishlist button text.
+* Feature - Added extra add-to-wishlist button positions.
+* Improvement - Wishlist item add to cart user experience.
+* Tweak - Use jquery-ui datepicker for selecting dates.
+* Feature - Added ability to remove the plugin datepicker styles.
+* Feature - Added ability to change the plugin datepicker date format.
+* Tweak - Show line breaks in wishlist description if present.
+
+= 1.0.6 =
+* Feature - Verified wordpress 5.5 and woocommerce 4.4 compatibility
+
+= 1.0.5 =
+* Feature - Added ability to set custom image size for products in the wishlist items table.
+* Feature - Added ability to add products to wishlists in the admin area.
+
+= 1.0.4 =
+* Feature - Added shortcode for displaying wishlist search form and search results.
+* Tweak - Changed output functions for displaying shipping address fields in wishlist admin area to prevent conflict with other plugins.
+* Improvement - Added extra column to shop order list table in admin area for displaying wishlists in order.
+* Improvement - Added extra columns to wishlist list table in admin area.
+
+= 1.0.3 =
+* Improvement - Compability of plugin templates with various theme layouts
+* Feature - Added ability to choose custom page template for displaying single wishlists.
+* Feature - Added ability to choose custom page template for displaying wishlist search results.
+* Note - Verified woocommerce 4.2.0 compatibility.
+
+= 1.0.2 =
+* Fix - Invalid form control warning on wishlist items table.
+* Fix - Issue with adding non-variable products to the wishlist on a single variable product page.
+
+= 1.0.1 =
+* Improvement - Changed urlencoding of email share link for better display in email clients.
+* Fix - Fixed error on cart page when cart item is removed.
+* Feature - Ability for admins to enable wishlist modules for users in the user profile screen.
+* Added - POT file for translation.
+
+= 1.0.0 =
+* Initial release

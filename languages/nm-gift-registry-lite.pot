@@ -1,0 +1,1915 @@
+# Copyright (C) 2024 Nmeri Media
+# This file is distributed under the same license as the NM Gift Registry and Wishlist Lite plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: NM Gift Registry and Wishlist Lite 5.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nm-gift-registry-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-27T12:11:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: nm-gift-registry-lite\n"
+
+#. Plugin Name of the plugin
+msgid "NM Gift Registry and Wishlist Lite"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://nmerimedia.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Advanced and highly customizable gift registry and wishlist plugin for your woocommerce store. <a href=\"https://nmerimedia.com/product/nm-gift-registry\" target=\"_blank\"><strong>Get PRO</strong></a> | <a href=\"https://nmerimedia.com/product-category/plugins/\" target=\"__blank\">See more plugins&hellip;</a>"
+msgstr ""
+
+#. Author of the plugin
+#: includes/Settings/Settings.php:168
+msgid "Nmeri Media"
+msgstr ""
+
+#. translators: 1: wishlists count, 2: wishlists type title
+#: includes/class-nmgr-account.php:275
+msgid "%1$s  %2$s"
+msgid_plural "%1$s %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-account.php:297
+msgid "You can only have one %s."
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:99
+#: includes/class-nmgr-admin-post.php:280
+#: includes/class-nmgr-widget-cart.php:33
+#: includes/class-nmgr-wordpress.php:675
+#: includes/class-nmgr-wordpress.php:678
+msgid "Wishlist type"
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:163
+msgid "Wishlist updated."
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:291
+#: includes/Fields/AccountFields.php:30
+msgid "Profile"
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:302
+#: includes/Fields/AccountFields.php:38
+#: includes/Tables/WishlistsTable.php:37
+msgid "Items"
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:338
+#: includes/class-nmgr-admin.php:194
+msgid "Guest"
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:361
+msgid "User Details"
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:389
+msgid "User:"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-admin-post.php:398
+msgid "Enter name of %s owner"
+msgstr ""
+
+#: includes/class-nmgr-admin-post.php:422
+msgid "Shipping Details"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-admin.php:65
+#: includes/Settings/Admin.php:242
+msgid "You need to set a page for viewing %s."
+msgstr ""
+
+#: includes/class-nmgr-admin.php:87
+msgid "Display name"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:94
+#: includes/class-nmgr-form.php:530
+#: includes/class-nmgr-form.php:533
+msgid "Email"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:100
+#: includes/class-nmgr-templates.php:158
+msgid "Event date"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:106
+msgid "Ships to"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:112
+#: includes/Fields/ItemFields.php:31
+msgid "Desired Quantity"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:122
+msgid "Purchased Quantity"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:132
+#: includes/Fields/ItemsTotalsFields.php:57
+msgid "Amount purchased"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-admin.php:137
+msgid "Purchased amount: the value of the purchased items in the %s"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:149
+#: includes/Fields/ItemFields.php:115
+#: includes/Fields/ItemsTotalsFields.php:48
+#: includes/Tables/WishlistsTable.php:42
+msgid "Total"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-admin.php:154
+msgid "Total amount: the value of all items in the %s"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:164
+msgid "Author"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:215
+msgid "Expired"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:252
+msgid "Wishlist Page"
+msgstr ""
+
+#: includes/class-nmgr-admin.php:258
+msgid "Gift Registry Page"
+msgstr ""
+
+#. translators: %s: count of items in wishlist
+#: includes/class-nmgr-admin.php:311
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-nmgr-admin.php:338
+msgid "Five star"
+msgstr ""
+
+#. translators: 1: plugin homepage link, 2: wordpress plugin review link
+#: includes/class-nmgr-admin.php:342
+msgid "Thanks for creating with %1$s. Love it  &hearts;, please leave a %2$s rating."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-admin.php:357
+msgid "%s count"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-admin.php:363
+msgid "The number of %s the product is in."
+msgstr ""
+
+#. translators: %d: wishlist ID.
+#: includes/class-nmgr-admin.php:425
+msgid "ID: %d"
+msgstr ""
+
+#. translators: %d: stock quantity
+#: includes/class-nmgr-ajax.php:220
+msgid "Stock: %d"
+msgstr ""
+
+#. translators: $1: customer name, $2: customer email
+#: includes/class-nmgr-ajax.php:291
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/class-nmgr-ajax.php:354
+#: includes/Fields/ItemActionsFields.php:56
+msgid "Update purchased quantity"
+msgstr ""
+
+#: includes/class-nmgr-ajax.php:452
+#: includes/Fields/ItemFields.php:60
+msgid "Product"
+msgstr ""
+
+#: includes/class-nmgr-ajax.php:456
+#: includes/class-nmgr-wishlist-item.php:279
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-nmgr-ajax.php:460
+#: includes/Settings/GiftRegistry.php:590
+#: includes/Settings/GiftRegistry.php:616
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#. translators: %d character length
+#: includes/class-nmgr-ajax.php:464
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: includes/class-nmgr-ajax.php:570
+#: includes/Lib/Single.php:99
+#: includes/Lib/Single.php:335
+#: includes/nmgr-functions.php:622
+#: includes/Tables/ItemsTable.php:693
+msgid "Add item(s)"
+msgstr ""
+
+#: includes/class-nmgr-ajax.php:583
+msgid "Add"
+msgstr ""
+
+#: includes/class-nmgr-form.php:454
+#: includes/class-nmgr-widget-search.php:38
+#: includes/Tables/WishlistsTable.php:27
+msgid "Title"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-form.php:457
+msgid "%s title"
+msgstr ""
+
+#: includes/class-nmgr-form.php:471
+msgid "First Name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:474
+msgid "First name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:486
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:489
+msgid "Last name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:501
+msgid "Partner First Name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:504
+msgid "Partner first name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:515
+msgid "Partner Last Name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:518
+msgid "Partner last name"
+msgstr ""
+
+#: includes/class-nmgr-form.php:548
+msgid "Description"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-form.php:554
+msgid "Describe your %s here, or write a message to your guests"
+msgstr ""
+
+#: includes/class-nmgr-form.php:563
+#: includes/class-nmgr-form.php:747
+msgid "Event Date"
+msgstr ""
+
+#: includes/class-nmgr-form.php:577
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-nmgr-form.php:582
+msgid "Public (Anyone can view it. Visible in search results to all)."
+msgstr ""
+
+#: includes/class-nmgr-form.php:585
+msgid "Private (Only you can view it when logged in. Visible in search results to you alone)."
+msgstr ""
+
+#: includes/class-nmgr-form.php:606
+msgid "Exclude from search results"
+msgstr ""
+
+#: includes/class-nmgr-form.php:620
+msgid "Archive"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-form.php:623
+msgid "Archiving the %s prevents it from being actively managed."
+msgstr ""
+
+#: includes/class-nmgr-form.php:855
+#: includes/class-nmgr-scripts.php:108
+msgid "required"
+msgstr ""
+
+#: includes/class-nmgr-form.php:866
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: includes/class-nmgr-form.php:873
+msgid "State / County"
+msgstr ""
+
+#: includes/class-nmgr-form.php:977
+msgid "Save changes"
+msgstr ""
+
+#. translators: %s: shipping field label
+#: includes/class-nmgr-form.php:1089
+msgid "Shipping %s"
+msgstr ""
+
+#. translators: %s: shipping field label
+#: includes/class-nmgr-form.php:1106
+msgid "%s is a required field."
+msgstr ""
+
+#. translators: %s: supplied email address
+#: includes/class-nmgr-form.php:1120
+msgid "%s is not a valid email address."
+msgstr ""
+
+#: includes/class-nmgr-form.php:1134
+msgid "Please enter a valid postcode / ZIP."
+msgstr ""
+
+#. translators: %1$s: supplied state, %2$s: valid states
+#: includes/class-nmgr-form.php:1153
+msgid "%1$s is not valid. Please enter one of the following: %2$s"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/class-nmgr-form.php:1163
+msgid "%s - Please enter the date in a valid format."
+msgstr ""
+
+#. translators: %s: item name
+#: includes/class-nmgr-order.php:174
+#: includes/Lib/AddToWishlist.php:610
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: item quantity to add to cart, 2: item title, 3: item quantity in cart, 4: item quantity requested in wishlist, 5: wishlist type title
+#: includes/class-nmgr-order.php:193
+msgid "You cannot add %1$d of %2$s to the cart as you have %3$d already in the cart with %4$d requested in the %5$s."
+msgstr ""
+
+#. translators: 1: item title, 2: wishlist type title
+#: includes/class-nmgr-order.php:208
+msgid "Please choose a quantity of %1$s that is not greater than the quantity requested in the %2$s."
+msgstr ""
+
+#. translators: 1, 2: wishlist type title
+#: includes/class-nmgr-order.php:245
+msgid "You have %1$s items in your cart."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-order.php:285
+msgid "You are buying this item for this %s"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-order.php:291
+msgid "For %s"
+msgstr ""
+
+#. translators: 1: wishlist type title, 2: cart item name, 3: wishlist type title, 4: wishlist title
+#: includes/class-nmgr-order.php:518
+msgid "The %1$s item %2$s has been removed from your cart as the shipping addresss for the %3$s %4$s is needed."
+msgstr ""
+
+#: includes/class-nmgr-order.php:552
+msgid "You have wishlist items in this order. Click this button to manually update these wishlists to reflect their status in this order. It is only necessary to do this if you notice that the wishlist information in this order does not match the data in the wishlist itself."
+msgstr ""
+
+#: includes/class-nmgr-order.php:557
+msgid "Sync wishlist data"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-order.php:589
+msgid "This item is bought for this %s"
+msgstr ""
+
+#. translators: 1: product name, 2: wishlist type title, 3: wishlist title
+#: includes/class-nmgr-order.php:638
+msgid "Purchase %1$s for the %2$s %3$s."
+msgstr ""
+
+#: includes/class-nmgr-scripts.php:105
+msgid "Select an option..."
+msgstr ""
+
+#: includes/class-nmgr-setup.php:96
+#: includes/Settings/Settings.php:505
+msgid "Docs"
+msgstr ""
+
+#: includes/class-nmgr-setup.php:99
+#: includes/Settings/Settings.php:515
+msgid "Support"
+msgstr ""
+
+#: includes/class-nmgr-setup.php:102
+#: includes/Settings/Settings.php:510
+msgid "Review"
+msgstr ""
+
+#: includes/class-nmgr-setup.php:112
+#: includes/Settings/Settings.php:518
+msgid "Get PRO"
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/class-nmgr-setup.php:492
+msgid "You need the WooCommerce plugin to be installed and activated for %s to work."
+msgstr ""
+
+#. translators: %1$s: plugin name, %2$s: required woocommerce version
+#: includes/class-nmgr-setup.php:498
+msgid "%1$s needs WooCommerce %2$s or higher to work. Please update WooCommerce."
+msgstr ""
+
+#: includes/class-nmgr-setup.php:518
+msgid "Disabled"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-templates.php:44
+msgid "Copy your %s url"
+msgstr ""
+
+#. translators: %d: wishlist event days
+#: includes/class-nmgr-templates.php:134
+msgid "%d day to your event"
+msgid_plural "%d days to your event"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: wishlist event days
+#: includes/class-nmgr-templates.php:141
+msgid "%d day after your event"
+msgid_plural "%d days after your event"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-nmgr-templates.php:147
+msgid "Your event is today"
+msgstr ""
+
+#. translators: 1: wishlist module account url, 2: wishlist type title
+#: includes/class-nmgr-templates.php:229
+msgid "<p>You can also manage your <a href=\"%1$s\">%2$s</a>.</p>"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-templates.php:249
+msgid "No %s were found matching your selection."
+msgstr ""
+
+#: includes/class-nmgr-templates.php:259
+msgid "This item has purchases that may be lost if deleted."
+msgstr ""
+
+#. translators: %s: search query
+#: includes/class-nmgr-templates.php:275
+msgid "Search results for: &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %d: total results
+#: includes/class-nmgr-templates.php:310
+msgid "%d result found"
+msgid_plural "%d results found"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: page number
+#: includes/class-nmgr-templates.php:317
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: includes/class-nmgr-templates.php:362
+#: includes/Tables/ItemsTable.php:335
+msgid "Desired quantity"
+msgstr ""
+
+#: includes/class-nmgr-templates.php:375
+#: includes/Fields/ItemFields.php:35
+#: includes/Tables/ItemsTable.php:380
+msgid "Purchased quantity"
+msgstr ""
+
+#: includes/class-nmgr-templates.php:402
+msgid "Create order"
+msgstr ""
+
+#: includes/class-nmgr-templates.php:405
+msgid "Create an order to reflect the purchase of the item."
+msgstr ""
+
+#: includes/class-nmgr-templates.php:418
+msgid "Apply price"
+msgstr ""
+
+#: includes/class-nmgr-templates.php:421
+msgid "Include the price of the item in the order total."
+msgstr ""
+
+#: includes/class-nmgr-widget-cart.php:14
+msgid "NM Gift Registry Cart"
+msgstr ""
+
+#: includes/class-nmgr-widget-cart.php:18
+msgid "Display a user's wishlists like a cart."
+msgstr ""
+
+#: includes/class-nmgr-widget-cart.php:37
+#: includes/Setup/Wizard/Wizard.php:347
+msgid "Gift Registry"
+msgstr ""
+
+#: includes/class-nmgr-widget-cart.php:40
+#: includes/class-nmgr-wordpress.php:99
+#: includes/Setup/Wizard/Wizard.php:341
+msgid "Wishlist"
+msgstr ""
+
+#. translators %s: wishlist type title
+#: includes/class-nmgr-widget-cart.php:159
+msgid "View your %s items"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:14
+msgid "NM Gift Registry Search"
+msgstr ""
+
+#. translators: %s wishlist type title
+#: includes/class-nmgr-widget-search.php:18
+msgid "%s search functionality."
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:45
+msgid "Hide form"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:52
+msgid "Show results"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:59
+msgid "Show all results if no search query"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:66
+msgid "Input required"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:73
+msgid "Input placeholder"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:80
+msgid "Submit button text"
+msgstr ""
+
+#. translators: %s: site url
+#: includes/class-nmgr-widget-search.php:87
+msgid "e.g. %s"
+msgstr ""
+
+#: includes/class-nmgr-widget-search.php:92
+msgid "Form action"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:273
+msgid "ID"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:276
+msgid "Type"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:282
+msgid "User ID"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:285
+msgid "Route"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:288
+msgid "Date"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:694
+msgid "Order created"
+msgstr ""
+
+#: includes/class-nmgr-wishlist-item.php:699
+#: includes/Lib/AddToWishlist.php:628
+#: includes/Lib/Archive.php:198
+#: includes/Lib/Single.php:350
+#: includes/Tables/WishlistsTable.php:80
+msgid "View"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-wishlist-item.php:758
+msgid "Invalid %s item."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-wishlist.php:1268
+msgid "Invalid %s."
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:75
+msgid "Select wishlist type"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:96
+msgid "Wishlists"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:102
+msgid "All Wishlists"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:105
+msgid "NM Gift Registry"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:108
+#: includes/class-nmgr-wordpress.php:111
+msgid "Add new wishlist"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:114
+msgid "Edit"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:117
+msgid "Edit wishlist"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:120
+msgid "New wishlist"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:123
+msgid "View wishlist"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:126
+msgid "View wishlists"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:129
+msgid "Search wishlists"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:132
+msgid "No wishlists found"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:135
+msgid "No wishlists found in trash"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:138
+msgid "Filter wishlists"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:141
+msgid "Wishlists list"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:144
+msgid "Wishlist published"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:147
+msgid "Wishlist published privately"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:150
+msgid "Wishlist updated"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:153
+msgid "Wishlist Attributes"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:157
+msgid "Add gift registries and wishlists to your store."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-wordpress.php:320
+msgid "Select a variation of this product to add to your %s."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-wordpress.php:329
+msgid "Select option(s) of this product to add to your %s."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-wordpress.php:342
+msgid "Login to add products to your %s."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgr-wordpress.php:353
+msgid "Create a %s to add products to it."
+msgstr ""
+
+#. translators: %1$s: username, %2$s: %3$s: %4$s: wishlist type title
+#: includes/class-nmgr-wordpress.php:609
+msgid "The user %1$s already has one %2$s. Users are allowed to have only one %3$s. This %4$s has not been updated."
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:681
+msgctxt "Admin menu name"
+msgid "Wishlist types"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:684
+msgid "Search wishlist types"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:687
+msgid "All wishlist types"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:690
+msgid "Parent wishlist type"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:693
+msgid "Edit wishlist type"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:696
+msgid "Update wishlist type"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:699
+msgid "Add new wishlist type"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:702
+msgid "New wishlist type name"
+msgstr ""
+
+#: includes/class-nmgr-wordpress.php:705
+msgid "No wishlist types found"
+msgstr ""
+
+#: includes/Dialog/Dropdown.php:37
+#: includes/Fields/ItemFields.php:135
+#: includes/Tables/WishlistsTable.php:47
+msgid "Actions"
+msgstr ""
+
+#: includes/Dialog/Modal.php:81
+msgid "Save"
+msgstr ""
+
+#: includes/Events/SetWishlistTerms.php:55
+msgid "Currently updating wishlist types for all wishlists in the background."
+msgstr ""
+
+#: includes/Fields/AccountFields.php:45
+#: includes/Settings/GiftRegistry.php:114
+msgid "Shipping"
+msgstr ""
+
+#: includes/Fields/ItemActionsFields.php:37
+msgid "Delete"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Fields/ItemActionsFields.php:109
+#: includes/Tables/ItemsTable.php:633
+msgid "Are you sure you want to remove the %s item?"
+msgstr ""
+
+#: includes/Fields/ItemFields.php:43
+msgid "Select item"
+msgstr ""
+
+#: includes/Fields/ItemFields.php:52
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/Fields/ItemFields.php:68
+msgid "Cost"
+msgstr ""
+
+#: includes/Fields/ItemFields.php:124
+#: includes/Settings/GiftRegistry.php:95
+#: includes/Settings/Wishlist.php:58
+#: includes/Tables/ItemsTable.php:707
+msgid "Add to cart"
+msgstr ""
+
+#: includes/Fields/ItemStatusesFields.php:33
+msgid "Purchased"
+msgstr ""
+
+#: includes/Fields/ItemStatusesFields.php:41
+msgid "Fulfilled"
+msgstr ""
+
+#. translators: %s : wishlist type title
+#: includes/Fields/ItemStatusesFields.php:51
+msgid "This item has been bought for the %s owner."
+msgstr ""
+
+#: includes/Fields/ItemStatusesFields.php:61
+msgid "Archived"
+msgstr ""
+
+#: includes/Fields/ItemStatusesFields.php:71
+msgid "Out of stock"
+msgstr ""
+
+#: includes/Fields/ItemStatusesFields.php:81
+msgid "Not purchasable"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Fields/ItemsTotalsFields.php:31
+msgid "The total cost of all the items in this %s."
+msgstr ""
+
+#: includes/Fields/ItemsTotalsFields.php:38
+msgid "The purchased quantity of some of the items is greater than the desired quantity. This may affect the totals calculations. Adjust the desired quantity to match the purchased quantity in order to correct this."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Fields/ItemsTotalsFields.php:60
+msgid "The value of all the purchased items in this %s."
+msgstr ""
+
+#: includes/Fields/ItemsTotalsFields.php:70
+msgid "Amount needed"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Fields/ItemsTotalsFields.php:73
+msgid "The amount needed to completely purchase all the items in this %s."
+msgstr ""
+
+#. translators: %s wishlist type title
+#: includes/Lib/AddToWishlist.php:122
+msgid "Please select some product options before adding this product to your %s."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/AddToWishlist.php:543
+msgid "This product has variations in your %s"
+msgid_plural "This product has variations in one or more of your %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/AddToWishlist.php:562
+msgid "This product has child products in your %s"
+msgid_plural "This product has child products in one or more of your %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/AddToWishlist.php:581
+msgid "This product is in your %s"
+msgid_plural "This product is in one or more of your %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: item names, 2: wishlist type title
+#: includes/Lib/AddToWishlist.php:620
+msgid "%1$s has been added to your %2$s."
+msgid_plural "%1$s have been added to your %2$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: product name, 2: wishlist type title
+#: includes/Lib/AddToWishlist.php:680
+msgid "%1$s could not be added to your %2$s"
+msgstr ""
+
+#: includes/Lib/AddToWishlist.php:1043
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/AddToWishlist.php:1146
+msgid "This product is in this %s"
+msgstr ""
+
+#: includes/Lib/Archive.php:185
+msgid "Event date:"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Archive.php:218
+msgid "Search %s&hellip;"
+msgstr ""
+
+#: includes/Lib/Archive.php:224
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: includes/Lib/Archive.php:340
+msgid "Search for:"
+msgstr ""
+
+#: includes/Lib/Single.php:81
+msgid "Set now"
+msgstr ""
+
+#: includes/Lib/Single.php:113
+#: includes/Lib/Single.php:316
+#: includes/nmgr-functions.php:638
+msgid "Add new"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Single.php:217
+msgid "Login to access your %s."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Single.php:225
+msgid "This %s does not exist or it cannot be viewed."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Single.php:249
+msgid "This %s is fulfilled."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Single.php:257
+msgid "This %s is empty."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Single.php:265
+msgid "The shipping address for this %s must be properly filled before items can be purchased from it."
+msgstr ""
+
+#: includes/Lib/Single.php:309
+msgid "Manage"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/Lib/Single.php:580
+msgid "Here is the link to my %s:"
+msgstr ""
+
+#: includes/Lib/Single.php:647
+msgid "Share on:"
+msgstr ""
+
+#. translators: %s: social media name
+#: includes/Lib/Single.php:659
+msgid "Click to share on %s"
+msgstr ""
+
+#: includes/nmgr-functions.php:170
+#: includes/Tables/Table.php:412
+msgid "Next"
+msgstr ""
+
+#: includes/nmgr-functions.php:173
+#: includes/Tables/Table.php:401
+msgid "Previous"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/nmgr-functions.php:630
+msgid "Create %s."
+msgstr ""
+
+#: includes/nmgr-functions.php:645
+msgid "No items yet."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/nmgr-functions.php:649
+msgid "Save this %s before you can start adding items to it."
+msgstr ""
+
+#: includes/nmgr-functions.php:709
+msgid "gift registry"
+msgstr ""
+
+#: includes/nmgr-functions.php:712
+msgid "gift registries"
+msgstr ""
+
+#: includes/nmgr-functions.php:717
+#: includes/Settings/GiftRegistry.php:1071
+msgid "wishlist"
+msgstr ""
+
+#: includes/nmgr-functions.php:720
+msgid "wishlists"
+msgstr ""
+
+#: includes/nmgr-functions.php:1360
+msgid "Copy account shipping address"
+msgstr ""
+
+#: includes/nmgr-functions.php:1371
+msgid "Error"
+msgstr ""
+
+#: includes/nmgr-functions.php:1377
+msgid "Success"
+msgstr ""
+
+#. translators: %s wishlist type title
+#: includes/nmgr-functions.php:1383
+msgid "This order was created manually from the purchase of a %s item."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/nmgr-functions.php:1442
+msgid "Go shopping for items to add to your %s."
+msgstr ""
+
+#: includes/nmgr-functions.php:1450
+msgid "Click here"
+msgstr ""
+
+#: includes/Settings/Admin.php:83
+msgid "PRO Version"
+msgstr ""
+
+#: includes/Settings/Admin.php:101
+msgid "Multiple wishlists"
+msgstr ""
+
+#: includes/Settings/Admin.php:102
+msgid "Allow users to have as many gift registries or wishlists as they want, each with it's own custom management page and settings on the frontend."
+msgstr ""
+
+#: includes/Settings/Admin.php:111
+msgid "Wishlist lifecycle emails"
+msgstr ""
+
+#: includes/Settings/Admin.php:112
+msgid "Allow the plugin to send emails to custom recipients and the list owner when the list is created, fulfilled or deleted, when items have been ordered, purchased or refunded from the list, and when messages are sent to the list owner at checkout."
+msgstr ""
+
+#: includes/Settings/Admin.php:120
+msgid "Featured and background images"
+msgstr ""
+
+#: includes/Settings/Admin.php:121
+msgid "Allow list owners to upload and display featured and background images on their list pages and on social media to add a personalised touch and improve the impressions made on guests."
+msgstr ""
+
+#: includes/Settings/Admin.php:129
+msgid "Checkout messages"
+msgstr ""
+
+#: includes/Settings/Admin.php:130
+msgid "Allow guests to send messages to the list owner from the checkout page as items are ordered for him. These message appear in the list's management page and can be configured to appear in the owner's inbox as well as in other emails sent to him."
+msgstr ""
+
+#: includes/Settings/Admin.php:138
+msgid "Wishlist visibility settings"
+msgstr ""
+
+#: includes/Settings/Admin.php:139
+msgid "Allow list owners to set the visibility of their lists to private, password protected or public from the list management page on the frontend. These visibilities correspond to WordPress' visibility settings."
+msgstr ""
+
+#: includes/Settings/Admin.php:147
+msgid "Exclude wishlists from search"
+msgstr ""
+
+#: includes/Settings/Admin.php:148
+msgid "Allow list owners to exclude individual lists from search results regardless of their visibility. This gives them improved control over how their lists appear on the website."
+msgstr ""
+
+#: includes/Settings/Admin.php:157
+msgid "Mark wishlist items as favourite"
+msgstr ""
+
+#: includes/Settings/Admin.php:158
+msgid "Allow list owners to mark an item as favourite when adding it to their list. The favourite status of items can be edited in the list management page and items can be sorted in the items table by their favourite status."
+msgstr ""
+
+#: includes/Settings/Admin.php:166
+msgid "Extra add to wishlist customizations"
+msgstr ""
+
+#: includes/Settings/Admin.php:167
+msgid "Customize the add to wishlist button to your liking. Select new display types, toggle the use of ajax for the action, the animation and display of notifications, the ability to choose the quantity and favourite status when adding a product to the list, whether variable and grouped products can be added to the list. Include or exclude products and product categories from being added to the wishlist, and much more."
+msgstr ""
+
+#: includes/Settings/Admin.php:176
+msgid "One-click wishlist templates customization"
+msgstr ""
+
+#: includes/Settings/Admin.php:177
+msgid "Customize the list templates from the admin area with the click of a button without writing any code. Toggle the visibility of default account tabs, the visibility and required status of the settings fields, the visibility and display type of the featured and background images, the messages module, and much more."
+msgstr ""
+
+#: includes/Settings/Admin.php:186
+msgid "Delete wishlist"
+msgstr ""
+
+#: includes/Settings/Admin.php:187
+msgid "Give list owners the ability to delete their lists from the frontend without having to contact the admin or leave it dormant to clog up your database. This gives them more control over their lists and leads to a cleaner site for the administrator."
+msgstr ""
+
+#: includes/Settings/Admin.php:195
+msgid "Customize wishlist shipping"
+msgstr ""
+
+#: includes/Settings/Admin.php:196
+msgid "Control the shipping methods available for wishlist items in the cart. Calculate shipping rates for the wishlist items separately from normal items. Ship wishlist items in cart to the wishlist's owner's address. And much more."
+msgstr ""
+
+#: includes/Settings/Admin.php:207
+#: includes/Settings/Admin.php:225
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/Settings/Admin.php:210
+msgid "NM Gift Registry and Wishlist Features"
+msgstr ""
+
+#: includes/Settings/Admin.php:211
+msgid "Check out these fantastic extra features that can provide your store with the perfect gift registry and wishlist experience."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:22
+msgid "Gift Registry Settings"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:82
+#: includes/Settings/GiftRegistry.php:89
+#: includes/Settings/Wishlist.php:45
+#: includes/Settings/Wishlist.php:52
+msgid "General"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:92
+#: includes/Settings/GiftRegistry.php:399
+#: includes/Settings/Wishlist.php:55
+#: includes/Settings/Wishlist.php:238
+#: includes/Settings/Wishlist.php:378
+#: includes/Settings/Wishlist.php:381
+msgid "Add to wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:101
+msgid "Modules"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:108
+msgid "Profile form"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:111
+msgid "Items table"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:117
+msgid "Images"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:120
+msgid "Messages"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:123
+msgid "Settings form"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:129
+msgid "Emails"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:158
+msgid "Optional"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:161
+msgid "Required"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:164
+#: includes/Settings/GiftRegistry.php:985
+#: includes/Settings/GiftRegistry.php:1022
+#: includes/Settings/GiftRegistry.php:1083
+msgid "Hidden"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:175
+msgid "The email field should typically be required as it is needed to send customer email notifications if applicable."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:208
+msgid "The checkbox for selecting the wishlist item."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:215
+msgid "This column allows actions such as editing and deleting to be performed on the wishlist items from the frontend. Unchecking it would prevent these actions from being able to be performed."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:227
+msgid "must contain the <code>[nmgr_archive]</code> or <code>[nmgr_wishlist]</code> shortcode"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:261
+#: includes/Settings/GiftRegistry.php:769
+#: includes/Settings/GiftRegistry.php:1045
+#: includes/Settings/Wishlist.php:103
+msgid "Enable"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:270
+#: includes/Settings/Wishlist.php:112
+msgid "Page for viewing wishlists"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:277
+#: includes/Settings/Wishlist.php:119
+msgid "None"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:281
+msgid "Use <code>[nmgr_archive]</code> if you want to show wishlist archives. Use <code>[nmgr_wishlist]</code> if you want to show only single wishlists."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:289
+#: includes/Settings/Wishlist.php:128
+msgid "Sharing on social networks"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:295
+#: includes/Settings/Wishlist.php:134
+#: includes/Setup/Wizard/Fields.php:153
+msgid "Allow sharing on Facebook"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:305
+#: includes/Settings/Wishlist.php:144
+msgid "Allow sharing on X"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:316
+#: includes/Settings/Wishlist.php:155
+#: includes/Setup/Wizard/Fields.php:169
+msgid "Allow sharing on Pinterest"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:327
+#: includes/Settings/Wishlist.php:166
+#: includes/Setup/Wizard/Fields.php:177
+msgid "Allow sharing on WhatsApp"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:338
+#: includes/Settings/Wishlist.php:177
+#: includes/Setup/Wizard/Fields.php:185
+msgid "Allow sharing on Email"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:345
+#: includes/Settings/Wishlist.php:184
+msgid "Allow guests to create wishlists"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:351
+#: includes/Settings/Wishlist.php:190
+msgid "Guests can create and manage wishlists just like logged in users"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:356
+#: includes/Settings/Wishlist.php:195
+msgid "Allow users to have multiple wishlists"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:363
+#: includes/Settings/Wishlist.php:202
+msgid "If not checked, each user can only have one wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:377
+#: includes/Settings/Wishlist.php:216
+msgid "Button display options"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:380
+#: includes/Settings/Wishlist.php:219
+msgid "Set the display options for the add to wishlist button."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:386
+#: includes/Settings/Wishlist.php:225
+msgid "Display type"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:394
+#: includes/Settings/Wishlist.php:233
+msgid "Button"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:403
+#: includes/Settings/Wishlist.php:242
+msgid "Use a standard button."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:408
+#: includes/Settings/Wishlist.php:247
+msgid "Icon"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:411
+#: includes/Settings/Wishlist.php:250
+msgid "Use the heart icon."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:417
+#: includes/Settings/Wishlist.php:256
+msgid "Custom html"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:421
+#: includes/Settings/Wishlist.php:260
+msgid "You can use any html normally accepted in post content as the button, only add the class <code>nmgr-add-to-wishlist-button</code> to it. To optionally show the default icon animation, also add the class <code>nmgr-animate</code> to it. See the documentation for more options."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:433
+#: includes/Settings/Wishlist.php:272
+msgid "Button display position on archive pages"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:442
+#: includes/Settings/GiftRegistry.php:476
+#: includes/Settings/Wishlist.php:281
+#: includes/Settings/Wishlist.php:315
+msgid "Before thumbnail"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:445
+#: includes/Settings/GiftRegistry.php:479
+#: includes/Settings/Wishlist.php:284
+#: includes/Settings/Wishlist.php:318
+msgid "Top left of thumbnail"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:448
+#: includes/Settings/GiftRegistry.php:482
+#: includes/Settings/Wishlist.php:287
+#: includes/Settings/Wishlist.php:321
+msgid "Top right of thumbnail"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:451
+#: includes/Settings/GiftRegistry.php:491
+#: includes/Settings/Wishlist.php:290
+#: includes/Settings/Wishlist.php:330
+msgid "Before title"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:454
+#: includes/Settings/GiftRegistry.php:494
+#: includes/Settings/Wishlist.php:293
+#: includes/Settings/Wishlist.php:333
+msgid "After title"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:457
+#: includes/Settings/GiftRegistry.php:497
+#: includes/Settings/Wishlist.php:296
+#: includes/Settings/Wishlist.php:336
+msgid "After price"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:460
+#: includes/Settings/GiftRegistry.php:503
+#: includes/Settings/Wishlist.php:299
+#: includes/Settings/Wishlist.php:342
+msgid "After add to cart button"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:467
+#: includes/Settings/Wishlist.php:306
+msgid "Button display position on single pages"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:485
+#: includes/Settings/Wishlist.php:324
+msgid "Bottom left of thumbnail"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:488
+#: includes/Settings/Wishlist.php:327
+msgid "Bottom right of thumbnail"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:500
+#: includes/Settings/Wishlist.php:339
+msgid "After excerpt"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:506
+#: includes/Settings/Wishlist.php:345
+msgid "After meta information"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:513
+#: includes/Settings/Wishlist.php:352
+msgid "Additional options"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:516
+#: includes/Settings/Wishlist.php:355
+msgid "Set up additional add to wishlist options"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:522
+#: includes/Settings/Wishlist.php:361
+msgid "Default wishlist title"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:526
+#: includes/Settings/GiftRegistry.php:529
+msgid "Gift Registry {wishlist_id}"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:532
+msgid " Leave empty if you want users without a wishlist to create one themselves. Available placeholders: {wishlist_type_title}, {wishlist_id}, {site_title}."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:538
+#: includes/Settings/Wishlist.php:374
+msgid "Add to wishlist button text"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:542
+#: includes/Settings/GiftRegistry.php:545
+msgid "Add to gift registry"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:551
+#: includes/Settings/Wishlist.php:387
+msgid "Add to new wishlist button text"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:556
+#: includes/Settings/GiftRegistry.php:559
+msgid "Add to new gift registry"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:562
+#: includes/Settings/Wishlist.php:398
+msgid "When adding an item to the wishlist the user can create a new wishlist to add the item to instead of using an existing wishlist. This only applies if users are allowed to have multiple wishlists. Available placeholders: {wishlist_type_title}."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:568
+msgid "Products and categories"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:571
+msgid "Set up the products and categories that should be added to the wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:578
+msgid "Allow only these products to be added to the wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:603
+msgid "Prevent these products from being added to the wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:629
+msgid "Allow only products from these categories to be added to the wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:640
+msgid "All categories"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:649
+msgid "Prevent products in these categories from being added to the wishlist"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:659
+msgid "No categories"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:674
+#: includes/Settings/Wishlist.php:411
+msgid "Wishlist item add to cart action"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:681
+#: includes/Settings/Wishlist.php:418
+msgid "AJAX enabled"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:684
+#: includes/Settings/Wishlist.php:421
+msgid "How wishlist items can be added to the cart from the single wishlist page."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:689
+msgid "Prevent the cart from having both wishlist items and non-wishlist items"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:696
+msgid "Customers cannot add wishlist items to the cart if it has non-wishlist items, and vice-versa."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:701
+msgid "Prevent the cart from having items from different wishlists at the same time"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:708
+msgid "Only allow items from one wishlist to be added to the cart at any particular time."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:722
+msgid "Wishlist profile form fields"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:725
+msgid "Set the display type for the wishlist profile form fields."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:733
+msgid "Wishlist items table"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:736
+msgid "Set the visibility of default columns on the items table. For some of these columns their visibility controls related plugin functionality so changing it may adjust how the plugin works. Please see the documentation for full explanation."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:745
+msgid "Hide fulfilled items from the table on the single wishlist page"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:750
+msgid "Fulfilled items are items which have all their desired quantities purchased."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:759
+msgid "Wishlist shipping"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:762
+msgid "Configure the wishlist shipping module. Please note that changing some of these settings may result in other plugin settings being automatically changed if applicable in order to enable the functionality."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:777
+#: includes/Setup/Wizard/Fields.php:193
+msgid "Make shipping address required"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:782
+msgid "If checked the user would have to fill in his shipping address before he can add items to his wishlist."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:793
+msgid "Calculate shipping for wishlist items separately from normal items on cart and checkout pages"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:798
+msgid "This allows separate shipping methods and rates to be used for wishlist and normal items."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:801
+msgid "Check this box typically if you want to calculate the shipping costs accurately for the wishlist items based on the wishlist's owner's shipping address rather than the address of the person buying the items. This setting is automatically enabled if specific registered shipping methods have been chosen for wishlist items."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:818
+#: includes/Setup/Wizard/Fields.php:201
+msgid "Ship cart items to the wishlist's owner's address"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:823
+msgid "This allows the main shipping address for the cart to be set to the wishlist's owner's address if the cart contains wishlist items."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:826
+msgid "This only works if the cart contains wishlist items. Checking this box would automatically set shipping to a different address on the checkout page  to the wishlist's owner's address and prevent the customer from modifying this address."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:838
+msgid "Replace wishlist's owner's shipping address on the frontend"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:842
+msgid "E.g. Items ship to {shipping_address_1}, {shipping_city}, the address of {full_name} and {partner_full_name}, the {wishlist_type_title} owners."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:845
+msgid "Use this when you want to override the default display of the wishlist's owner's shipping address instead of hiding it. Available placeholders: {wishlist_type_title}, {shipping_first_name}, {shipping_last_name}, {shipping_company}, {shipping_address_1}, {shipping_address_2}, {shipping_city}, {shipping_state}, {shipping_postcode}, {shipping_country}, {first_name}, {last_name}, {full_name}, {partner_first_name}, {partner_last_name}, {partner_full_name}, {display_name}, {email}."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:899
+msgid "Registered shipping methods that should only be available for wishlist items in cart and checkout"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:902
+msgid "By default all registered and enabled shipping methods would be available for wishlist items but you can select those which should only be available for them. For example if you want all wishlist items in the cart to be free shipping only, select free shipping. This would then exclude all the other shipping methods from being selected for the wishlist items in the cart."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:923
+msgid "Hide wishlist's owner's shipping address fields on the frontend"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:932
+msgid "Hide all fields"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:936
+msgid "Hide all or parts of the address fields. The fields would be still visible to the admin in the order screen."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:963
+msgid "Wishlist images"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:966
+msgid "Set the display type for the wishlist images."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:973
+msgid "Thumbnail image"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:979
+msgid "Square"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:982
+msgid "Circle"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:994
+msgid "Thumbnail image position against background image"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:999
+msgid "Center"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1002
+msgid "Left"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1005
+msgid "Right"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1014
+msgid "Background image"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1019
+#: includes/Settings/GiftRegistry.php:1080
+msgid "Visible"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1034
+msgid "Wishlist messages"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1037
+msgid "Configure the wishlist messages module."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1050
+msgid "Unchecking this disables the messages module completely for the site so guests would not be able to send messages to the wishlist's owner from the checkout page and messages would be excluded from emails."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1092
+msgid "If hidden, the user would not be able to exclude his individual wishlist from appearing in the search results. Only the admin would be able to do this from the backend."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1097
+msgid "If hidden, the user would not be able to delete his wishlist from the frontend. Only the admin would be able to do it from the backend."
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1107
+msgid "Wishlist settings form fields"
+msgstr ""
+
+#: includes/Settings/GiftRegistry.php:1110
+msgid "Set the visibility of the wishlist settings form fields."
+msgstr ""
+
+#: includes/Settings/Settings.php:750
+msgid "PRO"
+msgstr ""
+
+#: includes/Settings/Settings.php:1150
+#: includes/Setup/Wizard/Wizard.php:102
+msgid "Settings saved."
+msgstr ""
+
+#: includes/Settings/Wishlist.php:15
+msgid "Wishlist Settings"
+msgstr ""
+
+#: includes/Settings/Wishlist.php:69
+msgid "must contain the shortcode <code>[nmgr_wishlist]</code>"
+msgstr ""
+
+#: includes/Settings/Wishlist.php:365
+#: includes/Settings/Wishlist.php:368
+msgid "My Wishlist"
+msgstr ""
+
+#: includes/Settings/Wishlist.php:392
+#: includes/Settings/Wishlist.php:395
+msgid "Add to new wishlist"
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:74
+msgid "IMPORTANT! This page must be set as it is where wishlists would be viewed and managed."
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:78
+msgid "Page contents <code>[nmgr_wishlist]</code> or <code>[nmgr_archive]</code>."
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:83
+msgid "Page contents <code>[nmgr_wishlist]</code>."
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:90
+msgid "I want to use the plugin as a Wishlist"
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:97
+msgid "I want to use the plugin as a Gift Registry"
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:116
+msgid "Enable wishlist archives"
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:122
+msgid "Select this if you want to also show the list of all wishlists on the frontend."
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:161
+msgid "Allow sharing on Twitter"
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:260
+msgid "Create new page"
+msgstr ""
+
+#: includes/Setup/Wizard/Fields.php:275
+msgid "Set page title"
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:14
+msgid "What's New"
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:21
+msgid "This version of the plugin introduced some major changes. The most important ones are listed below."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:30
+msgid "You can now use the plugin as both a full wishlist plugin and a full gift registry plugin."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:37
+msgid "Every thing concerning a customer's wishlist or gift registry is now managed through a single page. There is no more \"page for managing wishlists\", \"page for viewing wishlist archives\" or \"page for viewing single wishlists\". A single page takes care of all of these. As a result of this, wishlists are no more managed in the WooCommerce my-account area."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:44
+msgid "Some plugin settings have been removed to make configuring the plugin easy and straightforward. If you have used these settings already, there's no need to worry as your configuration would still remain. Some of these settings can be changed using filters."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:51
+msgid "You can choose to create an order in the admin area when updating the purchased quantity of an item so that the update can be tracked just like an order created at the WooCommerce checkout."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:59
+msgid "Click continue now to review your current settings."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:70
+msgid "Welcome! Here you can quickly set up the plugin to work for you just the way you want."
+msgstr ""
+
+#. translators: 1: wishist, 2: gift registry
+#: includes/Setup/Wizard/sections/welcome.php:88
+msgid "You can use the plugin as a %1$s, %2$s or both."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/welcome.php:100
+msgid "Note that all these settings can be changed in the plugin settings page at anytime."
+msgstr ""
+
+#: includes/Setup/Wizard/sections/wishlist.php:42
+msgid "You are already using the plugin as a gift registry. Simply review the settings below and you're good to go."
+msgstr ""
+
+#: includes/Setup/Wizard/Wizard.php:233
+msgid "Setup"
+msgstr ""
+
+#: includes/Setup/Wizard/Wizard.php:282
+msgid "Back"
+msgstr ""
+
+#: includes/Setup/Wizard/Wizard.php:292
+msgid "Continue"
+msgstr ""
+
+#: includes/Setup/Wizard/Wizard.php:335
+msgid "Welcome"
+msgstr ""
+
+#. translators: 1: item quantity purchased, 2: item quantity in wishlist
+#: includes/Tables/ItemsTable.php:91
+msgid "%1$s of %2$s items purchased."
+msgstr ""
+
+#. translators: %d: item count
+#: includes/Tables/ItemsTable.php:103
+msgctxt "wishlist item count"
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Tables/ItemsTable.php:244
+msgid "Product no longer exists"
+msgstr ""
+
+#: includes/Tables/ItemsTable.php:253
+msgid "SKU:"
+msgstr ""
+
+#: includes/Tables/ItemsTable.php:264
+msgid "Variation ID:"
+msgstr ""
+
+#: includes/Tables/ItemsTable.php:303
+msgid "Cost per item"
+msgstr ""
+
+#: includes/Tables/ItemsTable.php:415
+msgid "Total cost"
+msgstr ""
+
+#: includes/Tables/ItemsTable.php:616
+msgid "Item statuses"
+msgstr ""
+
+#. translators: 1: current page, 2: total pages
+#: includes/Tables/Table.php:387
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: includes/Tables/WishlistsTable.php:32
+msgid "Created"
+msgstr ""
